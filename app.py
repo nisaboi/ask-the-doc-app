@@ -140,3 +140,9 @@ with tabs[1]:
         with st.spinner("Generating code..."):
             generated_code = generate_code(code_prompt)
             st.code(generated_code, language="python")
+
+    
+    if code_prompt:
+        with st.spinner("Generating code..."):
+            generated_code = generate_code(code_prompt)
+            st.code(generated_code, language="python")
